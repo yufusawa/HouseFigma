@@ -8,6 +8,27 @@ body {
   padding: 0;
   
 }
+button {
+  border-color: #598D66;
+  border-radius: 0%;
+  padding: 20px 60px;
+  background-color: rgba(255, 255, 255, 0);
+  color: #598D66;
+  font-weight: 500;
+  font-size: 20px;
+  
+}
+button:hover{
+  background-color: #598D66;
+  color: #F4F6F5;
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 100px;
+
+}
 .header {
 
 
@@ -71,6 +92,10 @@ body {
   padding-left: 735px;
   width: 540px; height: 132px;
 }
+.hero-text button{
+  
+  margin-top: 60px;
+}
 .hero img {
   position: absolute;
   top: 0;
@@ -109,13 +134,16 @@ body {
   gap: 32px;
 }
 .catalog-nav button {
+  
   width: 126px;
   height: 43px;
+  padding: 0 0;
   background-color: #D4E8D9;
   color: #2C2D35;
   border-radius: 20px;
   border: none;
   font-size: 20px;
+  
 }
 .catalog-nav button:hover {
   background-color: #376B44;

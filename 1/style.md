@@ -10,7 +10,6 @@ body {
 }
 button {
   border-color: #598D66;
-  border-width: 1px;
   border-radius: 0%;
   padding: 20px 60px;
   background-color: rgba(255, 255, 255, 0);
@@ -26,9 +25,9 @@ button:hover{
 }
 .container{
   width: 100%;
-  max-width: 1125px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 220px;
+  padding: 0 100px;
 
 }
 .header {
@@ -41,22 +40,21 @@ button:hover{
     
 
 }
-.header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .header-left {
 
 }
 .header-right {
-   
+   /*
   display: flex;
   justify-content: space-between;
   align-items: center;
   
   gap: 60px;
+  /*
+  padding-left: 803px;
+  padding-right: 165px;
+  */
 }
 .header-right a {
   text-decoration: none;
@@ -94,10 +92,9 @@ button:hover{
   min-height: 621px;
 }
 .hero-text {
-  padding-top: 99px;
-  padding-left: 607px;
-  width: 540px;
-  height: 132px;
+  padding-top: 145px;
+  padding-left: 735px;
+  width: 540px; height: 132px;
 }
 .hero-text button{
   
@@ -119,6 +116,7 @@ button:hover{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 165px;
 }
 .catalog h2 {
   font-size: 40px;
@@ -158,43 +156,21 @@ button:hover{
 .card {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
-  padding: 20px;
+  align-items: center;
+  width: 350px;
+  height: 730px;
+  padding: 20px 0;
   background-color: #E1EDE6;
-  color: #2C2D35;
-}
-.card button {
-  width: 100%;
-  margin: 10px 0;
 }
 .card-author {
-  color: #86928B;
-  margin: 10px 0;
+  color: green;
 }
-
 .card h3 {
-  margin: 0%;
   margin-right: 50%;
-  font-size: 30px;
-  width: 100%;
-  margin: 10px 0;
-}
-.price {
-  color: #598D66;
-  font-size: 24px;
-  margin: 10px 0;
-  margin-top: 20px;
 }
 .card img {
   width: 310px;
   height: 422px;
-  display: block;
-  align-self: center;
-}
-
-.card button {
-  align-self: center;
 }
 .footer {
   background-color: #E1EDE6;
@@ -205,75 +181,11 @@ button:hover{
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  padding: 20px 0 70px;
-  gap: 30px;
+  
 }
 .card-container {
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 /*justify-content: center;
 gap: 30px;*/
-}
-.france {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-.promo {
-  background-image:
-      linear-gradient(to right,rgba(0, 0, 0, 0.7), rgba(0, 0, 0, -1)),
-      url(../images/Rectangle.png);
-  background-position: center;
-  background-size: 1870px;
-  height: 574px;
-  color: #F4F6F5;
-}
-.promo p {
-  font-size: 18px;
-  line-height: 150%;
-}
-.promo h2 {
-  font-size: 40px;
- 
-}
-.promo button {
-  color: #2C2D35;
-  background-color: #EEDB6D;
-  border: none;
-}
-.promo-content {
-  padding: 70px 0;
-  width: 540px;
-}
-
-.team-content {
-  position: absolute;
-  left: 871px;
-  top: 3100px;
-  width: 608px;
-}
-.team-content h2 {
-  font-size: 40px;
-  color: #2C2D35;
-}
-.team-content p {
-  font-size: 18px;    
-  line-height: 150%;
-  color: #2C2D35;
-}
-.team {
-  height: 600px;
-}
-.hand {
-  position: absolute;
-  left: 417px;
-  top: 3021px;
-}
-.frame {
-  position: absolute;
-  right: center;
-  top: 3100px;
-}
-.footer .container {
-  padding-top: 50px;
 }

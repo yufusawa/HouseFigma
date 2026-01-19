@@ -93,33 +93,32 @@
 
                     <div class="card-container">
                     
-                <div class="card">
+                
+                        <div class="card">
                         <img src="images/03(3).png" alt="Охота Амура">
                         <span class="card-author">Марсель Руссо</span>
                         <h3>Охота Амура</h3>
                         <span>Холст, масло (50х80)</span>
-                        <div class="price">14 500 руб</div>
+                        <div class="price"></div>
                         <button>В корзину</button>
                     </div>
-
+                    
                     <div class="card">
                         <img src="images/03(4).png" alt="Охота Амура">
-                        <span class="card-author">Анри Селин</span>
-                        <h3>Дама с собачкой</h3>
-                        <span>Акрил, бумага (50х80)</span>
-                        <div class="price">16 500 руб</div>
+                        <span class="card-author">Марсель Руссо</span>
+                        <h3>Охота Амура</h3>
+                        <span>Холст, масло (50х80)</span>
+                        <div class="price"></div>
                         <button>В корзину</button>
                     </div>
-
 
                     <div class="card">
                         <img src="images/03(5).png" alt="Охота Амура">
-                        <span class="card-author">Франсуа Дюпон</span>
-                        <h3>Процедура</h3>
-                        <span>Цветная литография (40х60)</span>
-                        <div class="price">20 000 руб</div>
+                        <span class="card-author">Марсель Руссо</span>
+                        <h3>Охота Амура</h3>
+                        <span>Холст, масло (50х80)</span>
+                        <div class="price"></div>
                         <button>В корзину</button>
-                        
                     </div>
                 </div>
             </div>    
@@ -132,45 +131,27 @@
 </div>
 <!--promo-->
     <div class="promo">
+        <img src="images/Rectangle.png" alt="">
         <div class="container">
-        <div class="promo-content">
-            <h2>
-                Новая коллекция французских авторов
-            </h2>
             <p>
-                Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих собственных рациональных ограничений.
+
+Сложно сказать, почему акционеры крупнейших компаний призывают нас к новым свершениям, которые, в свою очередь, должны быть заблокированы в рамках своих собственных рациональных ограничений.
 
 Принимая во внимание показатели успешности, граница обучения кадров предопределяет высокую востребованность направлений прогрессивного развития.
-            </p>
+</p>
 
-            <button>Ознакомиться</button>
-        </div>
-
-          
         </div>
 
     </div>
 
 
 <!--our team-->
-    <div class="team">
-        <div class="container">
-            <img class="frame" src="images/frame.png" alt="">
-            <img class="hand" src="images/hand.png" alt="">
-            <div class="team-content">
-                <h2>Наша команда</h2>
-                <p>Значимость этих проблем настолько очевидна, что базовый вектор развития позволяет оценить значение экспериментов, поражающих по своей масштабности и грандиозности. Мы вынуждены отталкиваться от того, что консультация с широким активом.
-                </p>
-            <img src="images/team.png" alt="">
-            </div>
 
 
-        </div>
-    </div>
 
     </main>
     <footer class="footer">
-<div class="container">
+
         <div class="logo-container">
             <img src="images/star.svg" alt="">
             <span class="logo-text">Ink. House</span>
@@ -190,7 +171,6 @@
 
 
         </div>
-</div>
     </footer>
 </body>
 </html>
